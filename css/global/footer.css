@@ -1,0 +1,6 @@
+.footer {
+  width: 100%;
+  text-align: center;
+  background-color: var(--azul-claro);
+  color: var(--background-primario);
+}
