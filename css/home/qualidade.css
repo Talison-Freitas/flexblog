@@ -1,0 +1,37 @@
+.qualidade-itens {
+  display: flex;
+  flex-wrap: wrap;
+}
+.itens {
+  flex: 1 1 300px;
+}
+.itens h2 {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  color: var(--font-clara);
+}
+.itens.purple h2::before{
+  content: "";
+  width: 8px;
+  height: 30px;
+  display: block;
+  background-color: var(--purple);
+  margin-right: 10px;
+}
+.itens.pink h2::before{
+  content: "";
+  width: 8px;
+  height: 30px;
+  display: block;
+  background-color: var(--pink);
+  margin-right: 10px;
+}
+.itens.blue h2::before{
+  content: "";
+  width: 8px;
+  height: 30px;
+  display: block;
+  background-color: var(--blue);
+  margin-right: 10px;
+}
