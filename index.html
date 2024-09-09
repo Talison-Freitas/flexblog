@@ -1,12 +1,158 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
   <title>Flexblog</title>
 </head>
+
 <body>
-  
+  <section class="informacoes-bg">
+    <div class="informacoes container">
+      <p>Seg / Sex - 09:00 ás 18:00</p>
+      <a href="tel:+551199999-9999">+55 (11) 99999-9999</a>
+      <p>Av. Qualquer Uma, N° 333, São Paulo - SP</p>
+    </div>
+  </section>
+  <header class="header-bg">
+    <div class="header container">
+      <a href="./">FlexBlog</a>
+      <nav id="nav">
+        <button class="botao" aria-expanded="false" aria-controls="menu" aria-haspopup="true" aria-label="Abrir Menu"><span id="hamburger"></span></button>
+        <ul class="header-menu" id="menu" role="menu">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#preco">Preço</a></li>
+          <li><a href="#qualidade">Qualidade</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <h1 class="introducao container">Novos valores e<br>Propriedades de CSS</h1>
+  <section class="sobre container" id="sobre">
+    <div class="sobre-texto">
+      <h2 class="titulo">Sobre</h2>
+      <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
+      <p>A definição precisa de metas permite uma melhor adaptação às circunstâncias, garantindo que as ações sejam conduzidas de maneira eficaz para alcançar os resultados desejados. Estabelecer objetivos claros fortalece a capacidade de prever e ajustar o planejamento conforme as necessidades que surgem ao longo do caminho.</p>
+    </div>
+    <div class="sobre-imagens">
+      <div class="img-1">
+        <img src="./img/sobre1.jpg" alt="Uma mulher mexendo em um smartphone">
+      </div>
+      <div class="img-2">
+        <img src="./img/sobre2.jpg" alt="Uma mão pintando uma espécie de floresta">
+      </div>
+    </div>
+  </section>
+  <section class="produtos container" id="produtos">
+    <h2 class="titulo">Produtos</h2>
+    <div class="produtos-itens">
+      <div class="itens purple">
+        <h3>Purple</h3>
+        <img src="./img/produtos1.jpg" alt="Mesa com pratos e talheres em cima">
+      </div>
+      <div class="itens pink">
+        <h3>Pink</h3>
+        <img src="./img/produtos2.jpg" alt="Diversos objetos, como: câmeras, par de sapatos, xícara e copo">
+      </div>
+      <div class="itens blue">
+        <h3>Blue</h3>
+        <img src="./img/produtos3.jpg" alt="Mesa com diversos objetos em cima, como: um buquê, duas tesouras, um notebook, entre outros">
+      </div>
+    </div>
+
+  </section>
+  <section class="valores-bg" id="preco">
+    <div class="valores container">
+      <div class="valores-itens">
+        <h2 class="titulo bronze">Bronze</h2>
+        <p><sup>R$</sup>19</p>
+        <ul>
+          <li>Planos Ilimitados</li>
+          <li>Acesso Restrito</li>
+          <li>Conteúdo Secreto</li>
+          <li>Suporte 24h</li>
+        </ul>
+        <a href="./">COMPRAR</a>
+      </div>
+      <div class="valores-itens">
+        <h2 class="titulo prata">Prata</h2>
+        <p><sup>R$</sup>39</p>
+        <ul>
+          <li>Planos Ilimitados</li>
+          <li>Acesso Restrito</li>
+          <li>Conteúdo Secreto</li>
+          <li>Suporte 24h</li>
+          <li>Compra Exclusiva</li>
+        </ul>
+        <a href="./">COMPRAR</a>
+      </div>
+      <div class="valores-itens">
+        <h2 class="titulo ouro">Ouro</h2>
+        <p><sup>R$</sup>19</p>
+        <ul>
+          <li>Planos Ilimitados</li>
+          <li>Acesso Restrito</li>
+          <li>Conteúdo Secreto</li>
+          <li>Suporte 24h</li>
+          <li>Compra Exclusiva</li>
+          <li>Download Ilimitado</li>
+        </ul>
+        <a href="./">COMPRAR</a>
+      </div>
+    </div>
+  </section>
+  <section class="qualidade container" id="qualidade">
+    <div class="qualidade-itens">
+      <div class="itens purple">
+        <h2>Inteligente</h2>
+        <p>A adoção de soluções inteligentes facilita o cumprimento de metas estratégicas, permitindo um uso otimizado dos recursos disponíveis.</p>
+      </div>
+      <div class="itens pink">
+        <h2>Compacto</h2>
+        <p>O desenvolvimento de estratégias compactas assegura que cada etapa do processo seja eficiente, sem comprometer a qualidade dos resultados.</p>
+      </div>
+      <div class="itens blue">
+        <h2>Econômico</h2>
+        <p>A busca por um planejamento econômico permite maximizar o retorno de investimentos, garantindo que os objetivos sejam alcançados de maneira sustentável.</p>
+      </div>
+      <div class="itens purple">
+        <h2>Transparente</h2>
+        <p>A transparência na definição de metas é essencial para criar confiança e promover a clareza necessária em cada fase do processo.</p>
+      </div>
+      <div class="itens pink">
+        <h2>Opaco</h2>
+        <p>A percepção de opacidade em certos processos pode exigir ajustes que garantam uma melhor compreensão e alinhamento dos objetivos com as expectativas.</p>
+      </div>
+      <div class="itens blue">
+        <h2>Sustentável</h2>
+        <p>O planejamento sustentável é fundamental para assegurar que as metas sejam atingidas sem comprometer os recursos necessários para o futuro.</p>
+      </div>
+    </div>
+  </section>
+  <section class="newsletter-bg">
+    <div class="newsletter container">
+      <div class="newsletter-texto">
+        <h2>Newsletter</h2>
+        <p>Assine e fique por dentro das novidades</p>
+      </div>
+      <form class="newsletter-form" action="./">
+        <input type="email" id="email" placeholder="Seu e-mail">
+        <button type="submit">ASSINAR</button>
+      </form>
+    </div>
+    <footer class="footer">
+      <p>FlexBlog © Todos os direitos reservados.</p>
+    </footer>
+
+  </section>
+  <script src="./script/script.js"></script>
 </body>
+
 </html>
